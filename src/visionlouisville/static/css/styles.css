@@ -596,10 +596,12 @@ ul.user-menu:after {
 /* Conversation */
 .replies-region {}
 .reply {
-  padding-left: 50px;
+  padding: 5px 0 0 50px;
 }
 .replies-region .avatar {
   float: left;
+  width: 40px;
+  height: 40px;
   border-radius: 5px;
   margin-left: -50px;
 }
