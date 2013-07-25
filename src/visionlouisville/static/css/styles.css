@@ -1067,7 +1067,15 @@ ul.user-list {
 }
 
 .bio-reply {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255,255,255,0.75);
+  box-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+}
+li:first-child .bio-reply {
+  border-top: 0;
+  box-shadow: none;
+  padding-top: 0;
 }
 .bio-reply-text {
   font-size: large;
