@@ -1028,6 +1028,9 @@ ul.user-list {
   width: 34%;
   box-shadow: 1px 0 0 #808073;
 }
+.tabs-3 .tab.is-current a {
+  box-shadow: 1px 0 0 #e7e7d7;
+}
 .tabs-3 .tab:first-child {
   width: 32%;
 }
